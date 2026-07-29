@@ -1,18 +1,16 @@
 #include <Arduino.h>
+#include <HCSR04.h>
 
-// put function declarations here:
-int myFunction(int, int);
+HCSR04 hc(2, 3);
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  Serial.begin(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  Serial.print("Distance: ");
+  Serial.print(hc.dist());
+  Serial.println(" cm");
+  delay(60);
 }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
