@@ -4,6 +4,14 @@
 
 ### Next Steps
 - HC-SR501 PIR sensor alongside ultrasonic on same breadboard
-update 7/29
+update 7/29 evening
+- *all sensors complete!*
+- next time, start to bring up actuators.
+update 7/29 evening
 - HC-SR501 PIR sensor bringup completed
 - https://www.youtube.com/watch?v=EqWxUT4o8kA (referred for changing sensitivity and time delay via physical interface of sensor)
+
+- Also completed photoresitor wiring with pull-down resistor.
+### Challenges 
+- PIR sensor was reading not as frequently as I wanted it to. Fix: moved on-board jumper from single-trigger to repeat-trigger
+
