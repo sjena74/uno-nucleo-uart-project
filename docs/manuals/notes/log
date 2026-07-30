@@ -20,3 +20,5 @@ update 7/29 evening
 ### Update
 - wired LED with pull-up resistor 
 - watched https://www.youtube.com/watch?v=jXEVZga9l1s (on wiring up relay)
+- relay bring-up completed with an additional diode for load safety
+  - testing works, clicks every 1 second
