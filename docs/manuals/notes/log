@@ -15,3 +15,7 @@ update 7/29 evening
 ### Challenges 
 - PIR sensor was reading not as frequently as I wanted it to. Fix: moved on-board jumper from single-trigger to repeat-trigger
 
+## 2026-07-30 
+
+### Update
+- wired LED with pull-up resistor 
