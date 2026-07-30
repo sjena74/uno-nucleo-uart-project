@@ -4,3 +4,6 @@
 
 ### Next Steps
 - HC-SR501 PIR sensor alongside ultrasonic on same breadboard
+update 7/29
+- HC-SR501 PIR sensor bringup completed
+- https://www.youtube.com/watch?v=EqWxUT4o8kA (referred for changing sensitivity and time delay via physical interface of sensor)
