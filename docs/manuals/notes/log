@@ -22,3 +22,17 @@ update 7/29 evening
 - watched https://www.youtube.com/watch?v=jXEVZga9l1s (on wiring up relay)
 - relay bring-up completed with an additional diode for load safety
   - testing works, clicks every 1 second
+
+
+## 2026-08-07
+
+### Update
+- Wired Servo SG90 (pin 7)
+- All three actuators are working in one program
+
+### Challenge
+- Servo.h not found even when tried to build
+- FIX: added the literal url to lib_deps in .ini
+
+## Next Steps
+- Will add in the last piece LCD1602
