@@ -36,3 +36,14 @@ update 7/29 evening
 
 ## Next Steps
 - Will add in the last piece LCD1602
+
+## 2026-08-09
+
+### Update 
+- Wired LCD1602 to board using datasheet
+
+### Challenge
+- had to find some extra male-female connectors since nodes from board to uno are far
+
+## Next Steps
+- Will add firmware for LCD1602 for simple bringup
