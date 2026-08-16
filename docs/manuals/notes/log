@@ -47,3 +47,20 @@ update 7/29 evening
 
 ## Next Steps
 - Will add firmware for LCD1602 for simple bringup
+
+
+## 2026-08-16
+
+### Update
+- Added LCD1602 firmware ("Hello Sohan" as a default for now)
+- Tested and worked using LiquidCrystal Library
+- All components working together!
+
+### Challenge
+- had to figure out how to use a potentiometer to fade/unfade the text from the LCD
+- fix: researched to figure out that instead of hardcoding a fixed voltage which could/could not work, many people used a potentiometer to tune the voltage input to the LCD as they liked.
+
+## Next Steps
+- Phase 2 is done!
+- Redesign the demo loop with real sensor-driven logic
+
