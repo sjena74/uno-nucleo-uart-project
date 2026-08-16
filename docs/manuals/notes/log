@@ -15,3 +15,35 @@ update 7/29 evening
 ### Challenges 
 - PIR sensor was reading not as frequently as I wanted it to. Fix: moved on-board jumper from single-trigger to repeat-trigger
 
+## 2026-07-30 
+
+### Update
+- wired LED with pull-up resistor 
+- watched https://www.youtube.com/watch?v=jXEVZga9l1s (on wiring up relay)
+- relay bring-up completed with an additional diode for load safety
+  - testing works, clicks every 1 second
+
+
+## 2026-08-07
+
+### Update
+- Wired Servo SG90 (pin 7)
+- All three actuators are working in one program
+
+### Challenge
+- Servo.h not found even when tried to build
+- FIX: added the literal url to lib_deps in .ini
+
+## Next Steps
+- Will add in the last piece LCD1602
+
+## 2026-08-09
+
+### Update 
+- Wired LCD1602 to board using datasheet
+
+### Challenge
+- had to find some extra male-female connectors since nodes from board to uno are far
+
+## Next Steps
+- Will add firmware for LCD1602 for simple bringup
