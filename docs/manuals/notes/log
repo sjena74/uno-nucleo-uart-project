@@ -61,6 +61,20 @@ update 7/29 evening
 - fix: researched to figure out that instead of hardcoding a fixed voltage which could/could not work, many people used a potentiometer to tune the voltage input to the LCD as they liked.
 
 ## Next Steps
+
+
+## 2026-08-18
+### Update
+- Replaced fixed-delay loop with sensor-driven logic:
+  - If object < 10cm away, relay + LCD "Object Near" + servo moves 90 degrees
+  - if light reaches a light threshold, LED on
+- works end-to-end
+
+### Challenge
+- had to figure out how to group tasks and display information on serial monitor in a nice form
 - Phase 2 is done!
 - Redesign the demo loop with real sensor-driven logic
+
+## Next Steps
+- Will start to enable the UART protocol on UNO side using poll-response
 
