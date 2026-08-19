@@ -47,3 +47,43 @@ update 7/29 evening
 
 ## Next Steps
 - Will add firmware for LCD1602 for simple bringup
+
+
+## 2026-08-16
+
+### Update
+- Added LCD1602 firmware ("Hello Sohan" as a default for now)
+- Tested and worked using LiquidCrystal Library
+- All components working together!
+
+### Challenge
+- had to figure out how to use a potentiometer to fade/unfade the text from the LCD
+- fix: researched to figure out that instead of hardcoding a fixed voltage which could/could not work, many people used a potentiometer to tune the voltage input to the LCD as they liked.
+
+## Next Steps
+
+
+## 2026-08-18
+### Update
+- Replaced fixed-delay loop with sensor-driven logic:
+  - If object < 10cm away, relay + LCD "Object Near" + servo moves 90 degrees
+  - if light reaches a light threshold, LED on
+- works end-to-end
+
+### Challenge
+- had to figure out how to group tasks and display information on serial monitor in a nice form
+- Phase 2 is done!
+- Redesign the demo loop with real sensor-driven logic
+
+## Next Steps
+- Will start to enable the UART protocol on UNO side using poll-response
+
+## 2026-08-19
+-Implemented full packet protocol on uno: poll-response for sensors (0x01 - 0x03) and command handling for actuators (0x10-0x13)
+- Built python test harness (pyserial) to simulate nucleo and verify manually
+- verified checksum math correct on real packet sensors and verified command packet correctly received and executed (via LED)
+
+
+## Next Steps
+- Bare-metal USART1 on STM32 setup
+- test with tx-rx loopback jumper on nucleo before connecting to uno
