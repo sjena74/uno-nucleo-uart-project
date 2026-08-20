@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../uno-side"
+		},
+		{
+			"name": "nucleo-side",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
