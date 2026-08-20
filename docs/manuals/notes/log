@@ -87,3 +87,13 @@ update 7/29 evening
 ## Next Steps
 - Bare-metal USART1 on STM32 setup
 - test with tx-rx loopback jumper on nucleo before connecting to uno
+
+## 2026-08-20
+-Wired resistor divider (1k/2k) uno Tx -> divider -> Nucleo PA10
+- Wired nucleo tx -> uno rx
+- tied uno and nucleo grounds together
+- flashed poll-test firmware to Nucleo, verified via LD2: send 0x01 poll, recieves valid 0xAA start byte back from UNO
+
+## Next Steps:
+- start packet parse on nucleo
+- implement decision logic on nucleo
