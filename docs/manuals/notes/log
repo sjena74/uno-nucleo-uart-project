@@ -97,3 +97,12 @@ update 7/29 evening
 ## Next Steps:
 - start packet parse on nucleo
 - implement decision logic on nucleo
+
+## 2026-08-20 (part 2)
+- full packet parsing + validation on nucleo
+- implemented decision making on nucleo: polls 3 sensors sequentially, sends commands based on thesholds reached
+- Nucleo is the decision-maker while uno is purely input/output
+
+#### SYSTEM COMPLETE
+
+
